@@ -1,0 +1,45 @@
+body {
+  margin: 0 auto;
+  background: black;
+}
+
+div#container {
+  position: relative;
+  background-color: #FCE0EC;
+  height: 100vh;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  z-index: 1;
+}
+
+/*.first {
+  width: 800px;
+  height: 500px;
+  background-image: url(https://pp.vk.me/c626419/v626419694/520f8/IAH8uqfpgNU.jpg);
+  position: fixed;
+  transition: all 1s ease;
+}
+
+
+.second {
+  width: 800px;
+  height: 500px;
+  background-image: url(https://pp.vk.me/c626419/v626419694/520f8/IAH8uqfpgNU.jpghttps://pp.vk.me/c837632/v837632694/21043/TxYApxLBFHU.jpg);
+  position: fixed;
+  transition: all .30s ease-out 0.5s;
+}*/
+
+
+
+div.video {
+  width: 100px;
+  height: 100px;
+  background-image: url(https://pp.vk.me/c626419/v626419694/520f8/IAH8uqfpgNU.jpg);
+  position:fixed;
+  background-size: cover;
+}
