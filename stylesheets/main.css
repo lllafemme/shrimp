@@ -1,11 +1,11 @@
 body {
   margin: 0 auto;
-  background: black;
+  background: #FCE0EC;
+  overflow: hidden;
 }
 
 div#container {
-  position: relative;
-  background-color: #FCE0EC;
+  position: absolute;
   height: 100vh;
   width: 100%;
 }
@@ -37,8 +37,8 @@ h1 {
 
 
 div.video {
-  width: 100px;
-  height: 100px;
+  width: 20vh;
+  height: 20vh;
   background-image: url(https://pp.vk.me/c626419/v626419694/520f8/IAH8uqfpgNU.jpg);
   position:fixed;
   background-size: cover;
