@@ -25,23 +25,23 @@
 // };
 
 $(document).ready(function() {
-    animateDiv($('.a'));
-    animateDiv($('.b'));
-    animateDiv($('.c'));
-    animateDiv($('.d'));
-    animateDiv($('.e'));
-    animateDiv($('.f'));
-    animateDiv($('.g'));
-    animateDiv($('.h'));
-    animateDiv($('.i'));
-    animateDiv($('.j'));
-    animateDiv($('.k'));
-    animateDiv($('.l'));
-    animateDiv($('.m'));
-    animateDiv($('.n'));
-    animateDiv($('.o'));
-    animateDiv($('.p'));
-    animateDiv($('.q'));
+    animateA($('.a'));
+    animateA($('.b'));
+    animateA($('.c'));
+    animateA($('.d'));
+    animateA($('.e'));
+    animateA($('.f'));
+    animateA($('.g'));
+    animateA($('.h'));
+    animateA($('.i'));
+    animateA($('.j'));
+    animateA($('.k'));
+    animateA($('.l'));
+    animateA($('.m'));
+    animateA($('.n'));
+    animateA($('.o'));
+    animateA($('.p'));
+    animateA($('.q'));
 
 });
 
@@ -58,7 +58,7 @@ function makeNewPosition($container) {
 
 }
 
-function animateDiv($target) {
+function animateA($target) {
     var newq = makeNewPosition($target.parent());
     var oldq = $target.offset();
     var speed = calcSpeed([oldq.top, oldq.left], newq);
@@ -67,7 +67,7 @@ function animateDiv($target) {
         top: newq[0],
         left: newq[1]
     }, speed, function() {
-        animateDiv($target);
+        animateA($target);
     });
 
 };
@@ -79,7 +79,7 @@ function calcSpeed(prev, next) {
 
     var greatest = x > y ? x : y;
 
-    var speedModifier = 0.07;
+    var speedModifier =0.05;
 
     var speed = Math.ceil(greatest / speedModifier);
 

@@ -36,10 +36,43 @@ h1 {
 
 
 
-div.video {
+figure.video {
   width: 20vh;
   height: 20vh;
-  background-image: url(https://pp.vk.me/c626419/v626419694/520f8/IAH8uqfpgNU.jpg);
   position:fixed;
   background-size: cover;
 }
+
+.clone {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+}
+
+.clone > iframe {
+
+    width: 100%;
+
+    height: 100%;
+
+}
+
+figure.a {top: 10vh; left: 50vh}
+figure.b {top: 30vh; left: 10vh}
+figure.c {top: 6vh; left: 20vh}
+figure.d {top: 45vh; left: 78vh}
+figure.e {top: 72vh; left: 36vh}
+figure.g {top: 89vh; left: 90vh}
+figure.h {top: 63vh; left: 18vh}
+figure.i {top: 54vh; left: 44vh}
+figure.j {top: 93vh; left: 66vh}
+figure.k {top: 20vh; left: 21vh}
+figure.m {top: 32vh; left: 85vh}
+figure.n {top: 84vh; left: 30vh}
+figure.o {top: 98vh; left: 74vh}
+figure.p {top: 55vh; left: 58vh}
+figure.q {top: 28vh; left: 8vh}
