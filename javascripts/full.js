@@ -1,12 +1,12 @@
 $(document).ready(function () {
 
-    $('figure').click(function () {
+    $('a').click(function () {
 
         var o=$(this).parent();
 
-        var url=o.find('figure').attr('url');
+        var url=o.find('a').attr('url');
 
-        var html='<a href="#" class="clone"><iframe width="560" height="315" src="https://www.youtube.com/embed/13-tta8h-fk" frameborder="0" allowfullscreen></iframe></a>'
+        var html='<a href="#" class="clone"><iframe width="560" height="315" src="https://www.youtube.com/embed/13-tta8h-fk" frameborder="0" allowfullscreen></iframe></a>';
 
         o.append(html);
 
