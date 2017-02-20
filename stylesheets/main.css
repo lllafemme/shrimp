@@ -4,7 +4,7 @@ body {
   overflow: hidden;
 }
 
-div#container {
+div#content {
   position: absolute;
   height: 100vh;
   width: 100%;
@@ -36,14 +36,12 @@ h1 {
 
 
 
-figure.video {
-  width: 20vh;
-  height: 20vh;
+a {
   position:fixed;
   background-size: cover;
 }
 
-.clone {
+.big {
 
     position: absolute;
 
@@ -53,7 +51,7 @@ figure.video {
 
 }
 
-.clone > iframe {
+.big  {
 
     width: 100%;
 
@@ -61,18 +59,24 @@ figure.video {
 
 }
 
-.a {top: 10vh; left: 50vh}
-/*figure.b {top: 30vh; left: 10vh}
-figure.c {top: 6vh; left: 20vh}
-figure.d {top: 45vh; left: 78vh}
-figure.e {top: 72vh; left: 36vh}
-figure.g {top: 89vh; left: 90vh}
-figure.h {top: 63vh; left: 18vh}
-figure.i {top: 54vh; left: 44vh}
-figure.j {top: 93vh; left: 66vh}
-figure.k {top: 20vh; left: 21vh}
-figure.m {top: 32vh; left: 85vh}
-figure.n {top: 84vh; left: 30vh}
-figure.o {top: 98vh; left: 74vh}
-figure.p {top: 55vh; left: 58vh}
-figure.q {top: 28vh; left: 8vh}*/
+figure {
+  width: 30vh;
+  height: 30vh;
+}
+
+
+.a {top: 10vh; left: 50vh;}
+.b {top: 30vh; left: 10vh;}
+.c {top: 6vh; left: 20vh;}
+.d {top: 45vh; left: 78vh;}
+.e {top: 72vh; left: 36vh;}
+.g {top: 89vh; left: 90vh;}
+.h {top: 63vh; left: 18vh;}
+.i {top: 54vh; left: 44vh;}
+.j {top: 93vh; left: 66vh;}
+.k {top: 20vh; left: 21vh;}
+.m {top: 32vh; left: 85vh;}
+.n {top: 84vh; left: 30vh;}
+.o {top: 98vh; left: 74vh;}
+.p {top: 55vh; left: 58vh;}
+.q {top: 28vh; left: 8vh;}
