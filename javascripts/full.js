@@ -23,9 +23,9 @@
 //     });
 //
 // });
-
-$(document).ready(function(){
-   $("video").click(function(){    
-        $("video").animate({height: "300px"});
-    });
-});
+// 
+// $(document).ready(function(){
+//    $("video").click(function(){
+//         $("video").animate({height: "300px"});
+//     });
+// });
