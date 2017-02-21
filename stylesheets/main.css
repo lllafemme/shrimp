@@ -1,20 +1,38 @@
 body {
   margin: 0 auto;
-  background: #FCE0EC;
+  background: black;
   overflow: hidden;
 }
 
 div#content {
   position: absolute;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 
-h1 {
+a.contacts,
+h2.game {
+  font-family: 'HELVETICA', monospace;
+  font-weight: bold;
   color: white;
-  font-size: 100px;
-  position: absolute;
-  z-index: 1;
+
+  position: fixed;
+  z-index: 0;
+  text-decoration: none;
+  left: -3vw;
+
+}
+
+a.contacts{
+  font-size: 32vw;
+  bottom: -5vw;
+}
+
+h2.game {
+  font-size: 41vw;
+  bottom: -2vw;
+
+  position: relative;
 }
 
 /*.first {
@@ -36,29 +54,112 @@ h1 {
 
 
 
+<<<<<<< HEAD
 a {
+=======
+a.ph {
+>>>>>>> origin/master
   position:fixed;
   background-size: cover;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
 }
 
+<<<<<<< HEAD
 .big {
+=======
+>>>>>>> origin/master
 
-    position: absolute;
-
-    top: 0;
-
-    left: 0;
-
+figure {
+  width: 30vh;
+  height: 30vh;
 }
 
+
+.a {top: 10vh; left: 50vh;}
+.b {top: 30vh; left: 150vh;}
+.c {top: 6vh; left: 20vh;}
+.d {top: 45vh; left: 78vh;}
+.e {top: 72vh; left: 36vh;}
+.f {top: 135vh; left: 6vh;}
+.g {top: 89vh; left: 90vh;}
+.h {top: 63vh; left: 18vh;}
+.i {top: 54vh; left: 120vh;}
+.j {top: 93vh; left: 66vh;}
+.k {top: 20vh; left: 21vh;}
+.k {top: 200vh; left: 19vh;}
+.m {top: 32vh; left: 85vh;}
+.n {top: 84vh; left: 190vh;}
+.o {top: 98vh; left: 74vh;}
+.p {top: 55vh; left: 58vh;}
+.q {top: 28vh; left: 100vh;}
+
+section.contacts {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  top: 10vh;
+}
+
+a.cont {
+  font-family: 'HELVETICA', monospace;
+  color: white;
+  font-size: 2vw;
+  margin: 1vw;
+}
+
+<<<<<<< HEAD
 .big  {
+=======
+h1 {
+  font-family: "HELVETICA", monospace;
+  color: white;
+  font-size: 6vw;
+  margin: 10px;
+}
+>>>>>>> origin/master
 
-    width: 100%;
-
-    height: 100%;
-
+section.madeby {
+  position: fixed;
+  top: 97vh;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
+h2, a.madeby {
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  font-size: 0.5vw;
+}
+
+.video {
+  height: 100%;
+  width: 100%;
+}
+
+<<<<<<< HEAD
 figure {
   width: 30vh;
   height: 30vh;
@@ -80,3 +181,26 @@ figure {
 .o {top: 98vh; left: 74vh;}
 .p {top: 55vh; left: 58vh;}
 .q {top: 28vh; left: 8vh;}
+=======
+a.start {
+  font-family: "Helvetica", monospace;
+  color: white;
+  font-size: 4vw;
+  padding-top: 14vw;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container2 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+>>>>>>> origin/master

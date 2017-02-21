@@ -4,6 +4,7 @@
   box-sizing:border-box;
 }
 
+<<<<<<< HEAD
 /*html,body {
   height:100%;
   max-height:100%;
@@ -13,10 +14,17 @@
 
 .wiggle:hover {
   -webkit-animation:none;
+=======
+
+
+body {
+  background:black;
+>>>>>>> origin/master
 }
 
 .short-animate {
   -webkit-transition:.5s ease-in-out;
+<<<<<<< HEAD
   -moz-transition:.5s ease-in-out;
   -ms-transition:.5s ease-in-out;
   -o-transition:.5s ease-in-out;
@@ -35,24 +43,55 @@
   left:0;
   right:0;
   background:#FCE0EC;
+=======
+  transition:.5s ease-in-out;
+}
+
+.long-animate {
+  -webkit-transition: .5s .5s ease-in-out;
+  transition:.5s .5s ease-in-out;
+}
+
+
+.lightbox {
+  position:fixed;
+  top:-100%;
+  bottom:100%;
+  left:0;
+  right:0;
+  background:pink;
+>>>>>>> origin/master
   z-index:501;
   opacity:0;
 }
 
+<<<<<<< HEAD
 .lightbox video {
   volume: x-soft;
   display: flex;
   justify-content: center;
   /*position:fixed;*/
+=======
+.lightbox iframe {
+  position:absolute;
+>>>>>>> origin/master
   margin:auto;
   top:0;
   left:0;
   right:0;
   bottom:0;
+<<<<<<< HEAD
   width:100%;
   height:100%;
 }
 
+=======
+  max-width: 0;
+  max-height: 0;
+}
+
+
+>>>>>>> origin/master
 #lightbox-controls {
   position:fixed;
   height:70px;
@@ -76,6 +115,8 @@
   -moz-transform:rotate(45deg);
   -ms-transform:rotate(45deg);
   -o-transform:rotate(45deg);
+=======
+>>>>>>> origin/master
   transform:rotate(45deg);
 }
 
@@ -90,9 +131,12 @@
   background:white;
   border-radius:2px;
   -webkit-transition: .5s .5s ease-in-out;
+<<<<<<< HEAD
   -moz-transition: .5s .5s ease-in-out;
   -ms-transition: .5s .5s ease-in-out;
   -o-transition:.5s .5s ease-in-out;
+=======
+>>>>>>> origin/master
   transition:.5s .5s ease-in-out;
 }
 
@@ -107,13 +151,17 @@
   background:white;
   border-radius:2px;
   -webkit-transition: .5s 1s ease-in-out;
+<<<<<<< HEAD
   -moz-transition: .5s 1s ease-in-out;
   -ms-transition: .5s 1s ease-in-out;
   -o-transition:.5s 1s ease-in-out;
+=======
+>>>>>>> origin/master
   transition:.5s 1s ease-in-out;
 }
 
 .lightbox:target {
+<<<<<<< HEAD
   bottom:-5%;
   opacity:1;
 }
@@ -124,6 +172,27 @@
   height:100%;
 }
 
+=======
+  top:0%;
+  bottom:0%;
+  opacity:1;
+}
+
+.lightbox:target iframe {
+  z-index: 1;
+  max-width:100%;
+  max-height:100%;
+}
+
+.lightbox:target .block {
+  height: 100vh;
+  width: 200vh;
+  z-index: 2;
+  position: fixed;
+}
+
+
+>>>>>>> origin/master
 .lightbox:target ~ #lightbox-controls {
   top:0px;
 }
@@ -135,6 +204,7 @@
 .lightbox:target ~ #lightbox-controls #close-lightbox:before {
   height:50px;
 }
+<<<<<<< HEAD
 
 @-webkit-keyframes wiggle {
 	0% {
@@ -146,3 +216,5 @@
   80% {-webkit-transform:rotate(2deg);}
 	100% {-webkit-transform:rotate(-2deg);}
 }
+=======
+>>>>>>> origin/master
