@@ -86,3 +86,5 @@ function calcSpeed(prev, next) {
     return speed;
 
 }
+
+$(".sidedock,.controls").remove();
