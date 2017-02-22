@@ -54,45 +54,22 @@ h2.game {
 
 
 
-<<<<<<< HEAD
-a {
-=======
+
+
 a.ph {
->>>>>>> origin/master
+
   position:fixed;
   background-size: cover;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
 }
 
-<<<<<<< HEAD
-.big {
-=======
->>>>>>> origin/master
 
 figure {
   width: 30vh;
   height: 30vh;
 }
 
-
-.a {top: 10vh; left: 50vh;}
-.b {top: 30vh; left: 150vh;}
-.c {top: 6vh; left: 20vh;}
-.d {top: 45vh; left: 78vh;}
-.e {top: 72vh; left: 36vh;}
-.f {top: 135vh; left: 6vh;}
-.g {top: 89vh; left: 90vh;}
-.h {top: 63vh; left: 18vh;}
-.i {top: 54vh; left: 120vh;}
-.j {top: 93vh; left: 66vh;}
-.k {top: 20vh; left: 21vh;}
-.k {top: 200vh; left: 19vh;}
-.m {top: 32vh; left: 85vh;}
-.n {top: 84vh; left: 190vh;}
-.o {top: 98vh; left: 74vh;}
-.p {top: 55vh; left: 58vh;}
-.q {top: 28vh; left: 100vh;}
 
 section.contacts {
   position: absolute;
@@ -110,7 +87,7 @@ section.contacts {
           align-items: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  top: 10vh;
+  top: 40vh;
 }
 
 a.cont {
@@ -118,18 +95,17 @@ a.cont {
   color: white;
   font-size: 2vw;
   margin: 1vw;
+  text-decoration: none;
 }
 
-<<<<<<< HEAD
-.big  {
-=======
+
 h1 {
   font-family: "HELVETICA", monospace;
   color: white;
   font-size: 6vw;
   margin: 10px;
 }
->>>>>>> origin/master
+
 
 section.madeby {
   position: fixed;
@@ -159,29 +135,13 @@ h2, a.madeby {
   width: 100%;
 }
 
-<<<<<<< HEAD
+
 figure {
   width: 30vh;
   height: 30vh;
 }
 
 
-.a {top: 10vh; left: 50vh;}
-.b {top: 30vh; left: 10vh;}
-.c {top: 6vh; left: 20vh;}
-.d {top: 45vh; left: 78vh;}
-.e {top: 72vh; left: 36vh;}
-.g {top: 89vh; left: 90vh;}
-.h {top: 63vh; left: 18vh;}
-.i {top: 54vh; left: 44vh;}
-.j {top: 93vh; left: 66vh;}
-.k {top: 20vh; left: 21vh;}
-.m {top: 32vh; left: 85vh;}
-.n {top: 84vh; left: 30vh;}
-.o {top: 98vh; left: 74vh;}
-.p {top: 55vh; left: 58vh;}
-.q {top: 28vh; left: 8vh;}
-=======
 a.start {
   font-family: "Helvetica", monospace;
   color: white;
@@ -203,4 +163,3 @@ a.start {
   flex-direction: column;
   justify-content: flex-end;
 }
->>>>>>> origin/master
