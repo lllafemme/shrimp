@@ -30,27 +30,9 @@ a.contacts{
 
 h2.game {
   font-size: 41vw;
-  bottom: -2vw;
-
-  position: relative;
+  bottom: -8vw;
 }
 
-/*.first {
-  width: 800px;
-  height: 500px;
-  background-image: url(https://pp.vk.me/c626419/v626419694/520f8/IAH8uqfpgNU.jpg);
-  position: fixed;
-  transition: all 1s ease;
-}
-
-
-.second {
-  width: 800px;
-  height: 500px;
-  background-image: url(https://pp.vk.me/c626419/v626419694/520f8/IAH8uqfpgNU.jpghttps://pp.vk.me/c837632/v837632694/21043/TxYApxLBFHU.jpg);
-  position: fixed;
-  transition: all .30s ease-out 0.5s;
-}*/
 
 
 
@@ -146,11 +128,12 @@ a.start {
   font-family: "Helvetica", monospace;
   color: white;
   font-size: 4vw;
-  padding-top: 14vw;
-
+  padding-bottom: 6vh;
+  z-index: 1;
 }
 
 .container {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;

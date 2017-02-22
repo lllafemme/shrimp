@@ -39,6 +39,25 @@ function animateA($target) {
     var oldq = $target.offset();
     var speed = calcSpeed([oldq.top, oldq.left], newq);
 
+    // $target.animate({
+    //   transform: 'translateY(100px)' //'translateY(' + newq[0] + 'px) translateX(' + newq[1] + 'px)'
+    // }, speed, function() {
+    //     animateA($target);
+    // });
+
+    // $target.animate({
+    //   transform: 'translateY(' + newq[0] + 'px) translateX(' + newq[1] + 'px)'
+    // }, {
+    //   duration: speed,
+    //   step: function() {
+    //     $target.css('transform','translateY(' + newq[0] + 'px) translateX(' + newq[1] + 'px)');
+    //   },
+    //   complete: function() {
+    //     console.log('animation complete')
+    //     animateA($target)
+    //   }
+    // })
+
     $target.animate({
         top: newq[0],
         left: newq[1]
