@@ -64,7 +64,7 @@ body {
   opacity:0;
 }
 
-.lightbox video {
+.lightbox iframe.video {
   volume: x-soft;
   display: flex;
   justify-content: center;
@@ -154,7 +154,7 @@ body {
   opacity:1;
 }
 
-.lightbox:target video {
+.lightbox:target .video {
   /*volume:loud;*/
   width:100%;
   height:100%;
