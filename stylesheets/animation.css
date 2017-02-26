@@ -166,8 +166,27 @@ body {
   width: 250vh;
   z-index: 6;
   position: fixed;
+  display: flex;
+  flex-direction: column;
 }
 
+.lightbox:target div#frame {
+  height: 50vh;
+  width: 100vh;
+  font-family: "Helvetica", monospace;
+  color: white;
+  font-size: 4vw;
+  z-index: 5;
+}
+
+.lightbox:target input#aud {
+  height: 10vh;
+  width: 10vh;
+  background: none;
+  font-family: "Helvetica", monospace;
+  color: white;
+  font-size: 4vw;
+}
 
 
 .lightbox:target ~ #lightbox-controls {
