@@ -146,3 +146,27 @@ a.start {
   flex-direction: column;
   justify-content: flex-end;
 }
+div.result {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+figure.result {
+  background-size: cover;
+  height: 20vh;
+  width: 40vh;
+  z-index: 6;
+  top: 10vh;
+  position: absolute;
+}
+
+.cool {
+  filter: grayscale(100%);
+}
+
+/*.cool,
+.bad,
+.notbad {
+  top: 10vw;
+  left: 35vw;
+}*/

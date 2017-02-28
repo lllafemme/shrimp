@@ -40,6 +40,18 @@
 .n {
   background-image: url(../images/moonrise.jpg);
 }
+
+.bad {
+  background-image: url(https://media.giphy.com/media/AicbwRDu6zuw0/giphy.gif);
+}
+
+.notbad {
+  background-image: url(https://media.giphy.com/media/KZ21KhIzzSeli/giphy.gif);
+}
+
+.cool {
+  background-image: url(https://media.giphy.com/media/nnRq6EvRl982Y/giphy.gif);
+}
 /*.o {
 >>>>>>> origin/master
   background-image: url(https://pp.vk.me/c637519/v637519694/27ced/tYIhh56gTps.jpg);

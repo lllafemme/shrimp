@@ -1,14 +1,18 @@
 $(function() {
 
+
+   var result = 0
+   var hide = 0
+
   $('#inbreakfast').change(function() {
     checkText1($('#inbreakfast')[0].value)
   })
 
   function checkText1(text) {
     if (text == 'клуб завтрак' || text == 'breakfast club') {
-      $('#divbreakfast').text('true')
+      $('#divbreakfast').text('true'); result++; hide++
     } else {
-      $('#divbreakfast').text('false')
+      $('#divbreakfast').text('false'); hide++
     }
   }
 
@@ -20,9 +24,9 @@ $(function() {
 
   function checkText2(text) {
     if (text == 'криминальное чтиво' || text == 'pulp fiction') {
-      $('#divchtivo').text('true')
+      $('#divchtivo').text('true'); result++ ; hide++
     } else {
-      $('#divchtivo').text('false')
+      $('#divchtivo').text('false') ; hide++
     }
   }
 
@@ -34,9 +38,9 @@ $(function() {
 
   function checkText3(text) {
     if (text == 'наполеон динамит' || text == 'napoleon dynamite') {
-      $('#divnapoleon').text('true')
+      $('#divnapoleon').text('true'); result++ ; hide++
     } else {
-      $('#divnapoleon').text('false')
+      $('#divnapoleon').text('false') ; hide++
     }
   }
 
@@ -48,9 +52,9 @@ $(function() {
 
   function checkText4(text) {
     if (text == 'молчание ягнят' || text == 'the silence of the lambs') {
-      $('#divlambs').text('true')
+      $('#divlambs').text('true'); result++ ; hide++
     } else {
-      $('#divlambs').text('false')
+      $('#divlambs').text('false') ; hide++
     }
   }
 
@@ -62,9 +66,9 @@ $(function() {
 
   function checkText5(text) {
     if (text == 'друзья' || text == 'friends') {
-      $('#divgarrel').text('true')
+      $('#divgarrel').text('true'); result++ ; hide++
     } else {
-      $('#divgarrel').text('false')
+      $('#divgarrel').text('false') ; hide++
     }
   }
 
@@ -77,9 +81,9 @@ $(function() {
 
   function checkText6(text) {
     if (text == 'уже не дети' || text == 'electrick children') {
-      $('#divchildren').text('true')
+      $('#divchildren').text('true'); result++ ; hide++
     } else {
-      $('#divchildren').text('false')
+      $('#divchildren').text('false') ; hide++
     }
   }
 
@@ -91,9 +95,9 @@ $(function() {
 
   function checkText7(text) {
     if (text == 'мамочка' || text == 'mommy') {
-      $('#divmommy').text('true')
+      $('#divmommy').text('true'); result++ ; hide++
     } else {
-      $('#divmommy').text('false')
+      $('#divmommy').text('false') ; hide++
     }
   }
 
@@ -104,9 +108,9 @@ $(function() {
 
   function checkText8(text) {
     if (text == 'воображаемая любовь' || text == 'heartbreaks') {
-      $('#divlove').text('true')
+      $('#divlove').text('true'); result++ ; hide++
     } else {
-      $('#divlove').text('false')
+      $('#divlove').text('false') ; hide++
     }
   }
 
@@ -118,9 +122,9 @@ $(function() {
 
   function checkText9(text) {
     if (text == 'клык' || text == 'dogtooth') {
-      $('#divklik').text('true')
+      $('#divklik').text('true'); result++ ; hide++
     } else {
-      $('#divklik').text('false')
+      $('#divklik').text('false') ; hide++
     }
   }
 
@@ -132,9 +136,9 @@ $(function() {
 
   function checkText10(text) {
     if (text == 'милая фрэнсис' || text == 'frances ha') {
-      $('#divfrances').text('true')
+      $('#divfrances').text('true'); result++ ; hide++
     } else {
-      $('#divfrances').text('false')
+      $('#divfrances').text('false') ; hide++
     }
   }
 
@@ -146,9 +150,9 @@ $(function() {
 
   function checkText11(text) {
     if (text == 'бойцовский клуб' || text == 'fight club') {
-      $('#divfight').text('true')
+      $('#divfight').text('true'); result++ ; hide++
     } else {
-      $('#divfight').text('false')
+      $('#divfight').text('false') ; hide++
     }
   }
 
@@ -160,9 +164,9 @@ $(function() {
 
   function checkText12(text) {
     if (text == 'трудности перевода' || text == 'lost in translation') {
-      $('#divlost').text('true')
+      $('#divlost').text('true'); result++ ; hide++
     } else {
-      $('#divlost').text('false')
+      $('#divlost').text('false') ; hide++
     }
   }
 
@@ -173,9 +177,9 @@ $(function() {
 
   function checkText13(text) {
     if (text == 'банда аутсайдеров' || text == 'band of outsiders') {
-      $('#divbanda').text('true')
+      $('#divbanda').text('true'); result++ ; hide++
     } else {
-      $('#divbanda').text('false')
+      $('#divbanda').text('false') ; hide++
     }
   }
 
@@ -187,14 +191,25 @@ $(function() {
 
   function checkText14(text) {
     if (text == 'королевство полной луны' || text == 'moonrise kingdom') {
-      $('#divmoonrise').text('true')
+      $('#divmoonrise').text('true'); result++ ; hide++
     } else {
-      $('#divmoonrise').text('false')
+      $('#divmoonrise').text('false') ; hide++
     }
   }
 
-})
+ $(document) (function hide(hide) {
+  if (hide == 14) {
+    resultCount();
+  }
+});
 
+  function resultCount(result) {
+    if (result == 1) {
+     $('figure.bad').removeClass('none');
+    }
+};
+
+});
 
 
 
