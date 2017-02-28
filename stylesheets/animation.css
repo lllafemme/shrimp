@@ -180,7 +180,7 @@ body {
   color: white;
   font-size: 25vw;
   z-index: 5;
-  margin-bottom: -6vw;
+  margin-bottom: -70px;
   font-weight: bold;
   text-align: center;
   position: relative;
@@ -188,11 +188,11 @@ body {
 
 .lightbox:target input.aud {
   padding-top: 40vh;
-  width: 50vh;
+  width: 8vw;
   background: none;
   font-family: "Helvetica", monospace;
   color: white;
-  font-size: 3vw;
+  font-size: 4vw;
   outline: none;
   border: none;
   border-bottom: solid white;
