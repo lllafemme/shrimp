@@ -9,11 +9,10 @@
     width: 100%;
     display: block;
     background: black;
-
   }
+
   p {
     height: 100%;
-
     font-family: 'Helvetica', monospace;
     font-size: 8.5vw;
     font-weight: bold;

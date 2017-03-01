@@ -4,18 +4,8 @@
   box-sizing:border-box;
 }
 
-
-
-
-
-.wiggle:hover {
-  -webkit-animation:none;
-}
-
-
 body {
   background:black;
-
 }
 
 .short-animate {
@@ -23,18 +13,13 @@ body {
   transition:.5s ease-in-out;
 }
 
-
-
-
 .lightbox {
   position:fixed;
   bottom:120%;
   left:0;
   right:0;
   background:black;
-
   -webkit-transition:.5s ease-in-out;
-
   transition:.5s ease-in-out;
 }
 
@@ -43,7 +28,6 @@ body {
   transition:.5s .5s ease-in-out;
 }
 
-
 .lightbox {
   position:fixed;
   top:-100%;
@@ -51,7 +35,6 @@ body {
   left:0;
   right:0;
   background:black;
-
   z-index:501;
   opacity:0;
 }
@@ -97,7 +80,6 @@ body {
   right:10px;
   top:10px;
   -webkit-transform:rotate(45deg);
-
   transform:rotate(45deg);
 }
 
@@ -112,7 +94,6 @@ body {
   background:white;
   border-radius:2px;
   -webkit-transition: .5s .5s ease-in-out;
-
   transition:.5s .5s ease-in-out;
 }
 
@@ -127,7 +108,6 @@ body {
   background:white;
   border-radius:2px;
   -webkit-transition: .5s 1s ease-in-out;
-
   transition:.5s 1s ease-in-out;
 }
 
